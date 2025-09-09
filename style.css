@@ -48,10 +48,10 @@ body {
 .btn-primary {
   background-color: #6495ED;
   color: white;
-  padding: 0.6rem 1.2rem;
-  border-radius: 6px;
+  padding: 0.2rem 0.7rem;
+  border-radius: 2px;
   text-decoration: none;
-  margin-top: 1.5rem;
+  margin-top: 0.2rem;
   display: inline-block;
 }
 .btn-primary:hover {
@@ -202,12 +202,13 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
-  align-items: flex-start;
+  align-items: center;
   max-width: 1200px;
   margin: 0 auto;
 }
 .flex-1 {
-  flex: 1 1 45%;
+  flex: 1;
+  min-width: 300px;
 }
 .flex-center {
   display: flex;
